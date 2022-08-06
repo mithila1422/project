@@ -1,0 +1,29 @@
+
+.body {
+   background-image: url('../../Image/pic2.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 40px 150px;
+ 
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-end;
+    }
+    .body h2{
+        color: rgb(121, 56, 241);
+     }
+    
+     .body P{
+        color: rgb(3, 54, 20)
+     }
+    
+    .body button{
+        background-color: transparent;
+        color: rgb(35, 123, 182);
+        border: 0;
+        width: 10%;
+        font-size: 20px;
+     }
