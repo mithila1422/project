@@ -8,6 +8,7 @@ import p6 from "../../img/p6.png";
 import { FaStar } from "react-icons/fa";
 import NavberD from "../NavberD";
 
+
 const Review = () => {
     return (<>
     <NavberD />
@@ -180,7 +181,7 @@ const Review = () => {
                 </div>
             </div>
         </div>
-
+        
     </section>
         </>
     );

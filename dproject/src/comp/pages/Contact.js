@@ -1,7 +1,7 @@
 import "../css/Contact.css"
 import NavberD from "../NavberD";
 import { FaMap, FaPhoneAlt, FaClock, FaEnvelope } from "react-icons/fa";
-
+import FooterD from "../FooterD";
 const Contact = () => {
     return(
         
@@ -56,6 +56,7 @@ const Contact = () => {
             </div>
            
             </section>
+            <FooterD />
 
         </>
     );
