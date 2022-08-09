@@ -1,5 +1,6 @@
-import style from "../css/Footer.module.css";
-const Footer = () => {
+import style from "./css/Footer.module.css";
+import { FaFacebookSquare, FaInstagramSquare, FaTwitter, FaEnvelope } from "react-icons/fa";
+const FooterD = () => {
     return(
         <>
             <section className={style.sign}>
@@ -17,6 +18,15 @@ const Footer = () => {
         <h4>Contact</h4>
         <p><b>Address:</b> Middel Badda Dhaka,1212</p>
         <p><b>Phone:</b>+88019********</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <FaFacebookSquare />
+                <FaInstagramSquare />
+                <FaEnvelope />
+                <FaTwitter />
+            </div>
+        </div>
         
         
     </div>
@@ -48,4 +58,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default FooterD;

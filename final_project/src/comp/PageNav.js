@@ -13,20 +13,29 @@ const PageNav = () => {
                     { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
                     sx={{ color: 'white', textTransform: 'none' }}>Home</Button>
 
-                    <Button component={NavLink} to='/contact' style={({ isActive }) => 
-                    { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
-                    sx={{ color: 'white', textTransform: 'none' }}>Contact</Button>
+                    
                     
                     <Button component={NavLink} to='/orderhistory' style={({ isActive }) => 
                     { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
                     sx={{ color: 'white', textTransform: 'none' }}>Order History</Button>
 
+                    <Button component={NavLink} to='/order' style={({ isActive }) => 
+                    { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
+                    sx={{ color: 'white', textTransform: 'none' }}>Order </Button>
+
+                    <Button component={NavLink} to='/contact' style={({ isActive }) => 
+                    { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
+                    sx={{ color: 'white', textTransform: 'none' }}>Contact</Button>
+
+                    <Button component={NavLink} to='/review' style={({ isActive }) => 
+                    { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
+                    sx={{ color: 'white', textTransform: 'none' }}>Review</Button>
+
                     <Button component={NavLink} to='/loginreg' style={({ isActive }) => 
                     { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} 
                     sx={{ color: 'white', textTransform: 'none' }}>Login</Button>
 
- 
-
+                    
 
                 </Toolbar>
 

@@ -1,13 +1,16 @@
 
 import style from "../css/Home.module.css"
+import Nav from "./Nav";
 
 const PageHome = () => {
 
     return(
         <>
        
-        
+        <Nav />
           
+            <div>
+
             
             <section className={style.body}>
                 <h2>Super deals</h2>
@@ -15,6 +18,9 @@ const PageHome = () => {
                 < p>Save more with coupons & discount </p>
                     <button >More</button>
             </section>
+            </div>
+            
+
                     
                 
 

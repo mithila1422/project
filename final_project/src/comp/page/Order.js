@@ -1,7 +1,8 @@
-
 import "../css/OrderHistory.module.css";
+import { Button } from "@mui/material";
+import { Delete } from "@mui/icons-material";
 
-const OrderHistory = () => {
+const Order = () => {
 
     return(
         <>
@@ -28,7 +29,8 @@ const OrderHistory = () => {
                             <td>$28</td>
                             <td>Cash on</td>
                             <td>On way</td>
-                            <td>Accept</td>
+                            <td><Button style={{color: "green"}}>Accept</Button>
+                            <Delete style={{color: "red"}}>Delete</Delete></td>
                         </tr>
                     </tbody>
                     <tbody>
@@ -40,7 +42,8 @@ const OrderHistory = () => {
                             <td>$20</td>
                             <td>Card</td>
                             <td>pending</td>
-                            <td>Delete</td>
+                            <td><Button style={{color: "green"}}>Accept</Button>
+                            <Delete style={{color: "red"}}>Delete</Delete></td>
                         </tr>
                     </tbody>
                     <tbody>
@@ -52,7 +55,8 @@ const OrderHistory = () => {
                             <td>$16</td>
                             <td>Cash on</td>
                             <td>On way</td>
-                            <td>Accept</td>
+                            <td><Button style={{color: "green"}}>Accept</Button>
+                            <Delete style={{color: "red"}}>Delete</Delete></td>
                         </tr>
                     </tbody>
                     <tbody>
@@ -64,7 +68,8 @@ const OrderHistory = () => {
                             <td>$28</td>
                             <td>Bkash</td>
                             <td>Shop</td>
-                            <td>Accept</td>
+                            <td><Button style={{color: "green"}}>Accept</Button>
+                            <Delete style={{color: "red"}}>Delete</Delete></td>
                         </tr>
                     </tbody>
                     <tbody>
@@ -76,7 +81,8 @@ const OrderHistory = () => {
                             <td>$50</td>
                             <td>Cash on</td>
                             <td>On way</td>
-                            <td>Accept</td>
+                            <td><Button style={{color: "green"}}>Accept</Button>
+                            <Delete style={{color: "red"}}>Delete</Delete></td>
                         </tr>
                     </tbody>
                 </table>
@@ -86,4 +92,4 @@ const OrderHistory = () => {
     );
 }
 
-export default OrderHistory;
+export default Order;

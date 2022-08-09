@@ -1,0 +1,53 @@
+.body{
+    width: 100%;
+    
+} 
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #070d14;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+}
+
+
+.li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.button{
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 600;
+   color: wheat;
+   transition: 0.3s ease;
+}
+
+.li a:hover,
+.li a.active{ 
+   color: rgb(223, 8, 8);
+}
+.li a.active::after{ 
+   content: "";
+   width: 30%;
+   height: 2px;
+   background: rgb(223, 8, 8) ;
+   position: absolute;
+   bottom: -4px;
+   left: 20px;
+}

@@ -3,7 +3,10 @@ import LoginReg from "./comp/page/auth/LoginReg";
 import Contact from "./comp/page/Contact";
 import PageHome from "./comp/page/PageHome";
 import PageLayout from "./comp/page/PageLayout";
-import OrderHistory from "./comp/page/OrderHistory"
+import OrderHistory from "./comp/page/OrderHistory";
+import Order from "./comp/page/Order"
+import Review from "./comp/page/Review";
+
 function App() {
   return (
    <>
@@ -12,8 +15,11 @@ function App() {
         <Route path="/" element={<PageLayout />}>
           <Route index element={<PageHome />}/>
           <Route path="contact" element={<Contact />}/>
+          <Route path="order" element={<Order />}/>
           <Route path="orderhistory" element={<OrderHistory />}/>
+          <Route path="review" element={<Review />}/>
           <Route path="loginreg" element={<LoginReg />}/>
+         
         </Route>
       </Routes>
     </BrowserRouter>
